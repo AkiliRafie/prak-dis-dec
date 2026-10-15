@@ -94,7 +94,7 @@ Menampilkan eksekusi server pengembangan GraphQL melalui terminal dengan perinta
 Pembahasan: 
 Menampilkan antarmuka bawaan GraphiQL di dalam peramban web yang menyediakan dokumentasi interaktif dan panduan penulisan query GraphQL.
 
-### 15. Tes Git
+### 15.
 <img src="images/17_cmd.png">
 Pembahasan: 
 Menampilkan penulisan query GraphQL di antarmuka GraphiQL untuk mengambil data atribut title dan author dari entitas daftar buku dan menampilkan hasil respon format JSON dari server GraphQL yang sukses mengembalikan data buku The Great Gatsby beserta nama penulisnya.
