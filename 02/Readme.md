@@ -99,6 +99,12 @@ Menampilkan antarmuka bawaan GraphiQL di dalam peramban web yang menyediakan dok
 Pembahasan: 
 Menampilkan penulisan query GraphQL di antarmuka GraphiQL untuk mengambil data atribut title dan author dari entitas daftar buku dan menampilkan hasil respon format JSON dari server GraphQL yang sukses mengembalikan data buku The Great Gatsby beserta nama penulisnya.
 
+### 15.
+<img src="images/18_tugas.png">
+<img src="images/19_tugas.png">
+<img src="images/20_tugas.png">
+Pembahasan: Mengirimkan query GraphQL ke server lokal (seperti Strawberry di http://localhost:8000/graphql) tanpa memerlukan pustaka eksternal seperti requests, melainkan memanfaatkan modul bawaan urllib.request dan json. Script ini menyiapkan payload query untuk mengambil daftar buku beserta judul dan penulisnya, lalu mengirimkannya sebagai request HTTP berformat JSON dengan header Content-Type: application/json. Jika koneksi berhasil dan server mengembalikan status HTTP 200, respons JSON tersebut diuraikan dan daftar buku dicetak ke konsol, sementara blok try-except disertakan untuk menangani potensi error apabila server lokal belum aktif atau gagal diakses.
+
 ---
 
 ## Kesimpulan
